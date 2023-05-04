@@ -20,15 +20,8 @@ const Navbar = () => {
                     <li className="nav-item">
                     <a className={router.pathname == "/about" ? "nav-link active" : "nav-link"} aria-current="page" href="/about" style={{color: "white", marginLeft: "40px"}}>About</a>
                     </li>
-                    <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: "white", marginLeft: "40px"}}>
-                        Movies
-                    </a>
-                    <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="/popular">Popular</a></li>
-                        <li><a className="dropdown-item" href="/now_playing">Now Playing</a></li>
-                       
-                    </ul>
+                    <li className="nav-item">
+                    <a className={router.pathname == "/product" ? "nav-link active" : "nav-link"} aria-current="page" href="/product" style={{color: "white", marginLeft: "40px"}}>Product</a>
                     </li>
 
                 </ul>

@@ -1,4 +1,5 @@
 import '@/styles/bootstrap.min.css'
+import '@/styles/globals.css';
 import Script from 'next/script'
 
 
